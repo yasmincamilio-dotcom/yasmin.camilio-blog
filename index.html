@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog informativo sobre filmes, cinema e seus diferentes gêneros.">
+  <title>O Mundo dos Filmes</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f1f8;
+      color: #292333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #24143d, #653c87);
+      color: white;
+      text-align: center;
+      padding: 48px 20px;
+    }
+    header h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.2rem); }
+    header p { margin: 0; font-size: 1.1rem; }
+    nav {
+      background: #180e29;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+    nav a:hover { text-decoration: underline; }
+    main {
+      width: min(900px, 92%);
+      margin: 30px auto;
+    }
+    section, article {
+      background: white;
+      padding: 24px;
+      margin-bottom: 22px;
+      border-radius: 14px;
+      box-shadow: 0 4px 14px rgba(35, 20, 55, 0.08);
+    }
+    h2 { color: #563078; margin-top: 0; }
+    .genres {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+    }
+    .genre {
+      background: #f0e8f7;
+      padding: 16px;
+      border-radius: 10px;
+    }
+    .genre h3 { margin: 0 0 6px; color: #45245f; }
+    .curiosity {
+      border-left: 5px solid #8054a6;
+      background: #f7f2fb;
+      padding: 14px 18px;
+      border-radius: 8px;
+    }
+    footer {
+      background: #180e29;
+      color: white;
+      text-align: center;
+      padding: 22px 15px;
+      margin-top: 36px;
+    }
+    footer p { margin: 4px 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎬 O Mundo dos Filmes</h1>
+    <p>Um blog informativo sobre cinema, histórias e diversão</p>
+  </header>
+
+  <nav aria-label="Navegação principal">
+    <a href="#sobre">Sobre</a>
+    <a href="#generos">Gêneros</a>
+    <a href="#importancia">Importância</a>
+    <a href="#curiosidade">Curiosidade</a>
+  </nav>
+
+  <main>
+    <section id="sobre">
+      <h2>🍿 O que são os filmes?</h2>
+      <p>
+        Os filmes fazem parte do nosso dia a dia e são uma forma de entretenimento,
+        cultura e aprendizado. Por meio deles, podemos conhecer histórias,
+        lugares, personagens e diferentes maneiras de ver o mundo.
+      </p>
+      <p>
+        Cada produção reúne o trabalho de atores, diretores, roteiristas,
+        profissionais de imagem, som e muitos outros. Juntos, eles transformam
+        uma ideia em uma história que pode emocionar e divertir o público.
+      </p>
+    </section>
+
+    <section id="generos">
+      <h2>🎥 Conheça alguns gêneros de filmes</h2>
+      <div class="genres">
+        <div class="genre">
+          <h3>Ação</h3>
+          <p>Apresenta aventuras, desafios e cenas cheias de movimento.</p>
+        </div>
+        <div class="genre">
+          <h3>Comédia</h3>
+          <p>Tem como objetivo divertir e provocar boas risadas.</p>
+        </div>
+        <div class="genre">
+          <h3>Romance</h3>
+          <p>Conta histórias sobre relacionamentos e sentimentos.</p>
+        </div>
+        <div class="genre">
+          <h3>Animação</h3>
+          <p>Usa desenhos ou imagens criadas por computador para contar histórias.</p>
+        </div>
+        <div class="genre">
+          <h3>Aventura</h3>
+          <p>Mostra jornadas, descobertas e situações emocionantes.</p>
+        </div>
+        <div class="genre">
+          <h3>Ficção científica</h3>
+          <p>Explora ideias relacionadas à ciência, ao futuro e à tecnologia.</p>
+        </div>
+      </div>
+    </section>
+
+    <article id="importancia">
+      <h2>🌟 Por que os filmes são importantes?</h2>
+      <p>
+        Além de divertir, os filmes podem transmitir mensagens e ensinar valores
+        como amizade, respeito, coragem, união e superação. Também ajudam a
+        conhecer outras culturas e a refletir sobre assuntos importantes da
+        sociedade.
+      </p>
+      <p>
+        Atualmente, podemos assistir a filmes no cinema, na televisão e em
+        plataformas digitais. A tecnologia tornou a produção cinematográfica
+        cada vez mais criativa e acessível.
+      </p>
+    </article>
+
+    <section id="curiosidade">
+      <h2>💡 Você sabia?</h2>
+      <div class="curiosity">
+        O cinema surgiu no final do século XIX. Desde então, passou por grandes
+        mudanças: os filmes, que eram inicialmente curtos e sem som, ganharam
+        cores, diálogos, efeitos especiais e novas tecnologias.
+      </div>
+    </section>
+
+    <section>
+      <h2>🎞️ Conclusão</h2>
+      <p>
+        Assistir a filmes é uma maneira divertida de conhecer novas histórias,
+        culturas e ideias. Cada produção pode despertar emoções e deixar uma
+        mensagem especial para quem assiste.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Créditos: Yasmim – 1º ano D</strong></p>
+    <p>Blog informativo: O Mundo dos Filmes</p>
+  </footer>
+</body>
+</html>
